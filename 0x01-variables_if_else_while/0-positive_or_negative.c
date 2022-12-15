@@ -5,15 +5,14 @@
 #include <time.h>
 
 /**
- * main - Entry point
- *
+ * main - Prints if number positive, negative or zero
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int n;
-	srand(time(0))\n\n;
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* Code inserted here */
 	if (n > 0)
@@ -23,7 +22,7 @@ int main(void)
 
 	}
 
-	if (n < 0)
+	else if (n < 0)
 
 	{
 
@@ -31,7 +30,7 @@ int main(void)
 
 	}
 
-	if (n == 0)
+	else (n == 0)
 
 	{
 
