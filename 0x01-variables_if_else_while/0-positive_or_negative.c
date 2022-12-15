@@ -5,7 +5,7 @@
 #include <time.h>
 
 /**
- * main - Prints if number positive, negative or zero
+ * main - Entry point
  * Return: Always 0 (Success)
  */
 
@@ -30,7 +30,7 @@ int main(void)
 
 	}
 
-	else (n == 0)
+	if (n == 0)
 
 	{
 
