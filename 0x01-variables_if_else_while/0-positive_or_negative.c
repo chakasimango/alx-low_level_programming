@@ -13,11 +13,8 @@
 int main(void)
 {
 	int n;
-	
 	srand(time(0));
-	
 	n = rand() - RAND_MAX / 2;
-	
 	/* Code inserted here */
 	if (n > 0)
 	{
